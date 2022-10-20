@@ -1,4 +1,4 @@
-# smart_mobility_lab_mid_exam 12190246 
+# Writing a simple publisher and subscriber (Python).md
 >Open a new terminal and source your ROS 2 installation so that ros2 commands will work.
 ~~~
 source /opt/ros/humble/setup.bash
