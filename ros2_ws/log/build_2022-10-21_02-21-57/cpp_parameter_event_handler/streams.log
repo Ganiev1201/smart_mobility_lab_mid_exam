@@ -1,0 +1,66 @@
+[0.042s] Invoking command in '/home/max/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/max/ros2_ws/src/cpp_parameter_event_handler -DCMAKE_INSTALL_PREFIX=/home/max/ros2_ws/install/cpp_parameter_event_handler
+[0.453s] -- The C compiler identification is GNU 11.2.0
+[0.699s] -- The CXX compiler identification is GNU 11.2.0
+[0.725s] -- Detecting C compiler ABI info
+[0.818s] -- Detecting C compiler ABI info - done
+[0.823s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.825s] -- Detecting C compile features
+[0.826s] -- Detecting C compile features - done
+[0.831s] -- Detecting CXX compiler ABI info
+[0.927s] -- Detecting CXX compiler ABI info - done
+[0.933s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.933s] -- Detecting CXX compile features
+[0.934s] -- Detecting CXX compile features - done
+[0.961s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.141s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.278s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[1.403s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.411s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.434s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.629s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.641s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.836s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.874s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.186s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.301s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.304s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.304s] -- Configured cppcheck include dirs: 
+[2.304s] -- Configured cppcheck exclude dirs and/or files: 
+[2.306s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.306s] -- Configured cpplint exclude dirs and/or files: 
+[2.309s] -- Added test 'lint_cmake' to check CMake code style
+[2.311s] -- Added test 'uncrustify' to check C / C++ code style
+[2.311s] -- Configured uncrustify additional arguments: 
+[2.313s] -- Added test 'xmllint' to check XML markup files
+[2.316s] -- Configuring done
+[2.326s] -- Generating done
+[2.327s] -- Build files have been written to: /home/max/ros2_ws/build/cpp_parameter_event_handler
+[2.346s] Invoked command in '/home/max/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/max/ros2_ws/src/cpp_parameter_event_handler -DCMAKE_INSTALL_PREFIX=/home/max/ros2_ws/install/cpp_parameter_event_handler
+[2.348s] Invoking command in '/home/max/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/max/ros2_ws/build/cpp_parameter_event_handler -- -j2 -l2
+[2.445s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[11.536s] [100%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[12.062s] [100%] Built target parameter_event_handler
+[12.074s] Invoked command in '/home/max/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/max/ros2_ws/build/cpp_parameter_event_handler -- -j2 -l2
+[12.133s] Invoking command in '/home/max/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/max/ros2_ws/build/cpp_parameter_event_handler
+[12.140s] -- Install configuration: ""
+[12.140s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler
+[12.144s] -- Set runtime path of "/home/max/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""
+[12.144s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler
+[12.144s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler
+[12.144s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
+[12.144s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv
+[12.145s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh
+[12.145s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv
+[12.145s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash
+[12.145s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh
+[12.145s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh
+[12.145s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv
+[12.146s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv
+[12.146s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler
+[12.146s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake
+[12.146s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake
+[12.146s] -- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml
+[12.150s] Invoked command in '/home/max/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/max/ros2_ws/build/cpp_parameter_event_handler

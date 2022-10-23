@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000229] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000259] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000275] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000290] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000324] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000358] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000393] (cpp_parameter_event_handler) JobQueued: {'identifier': 'cpp_parameter_event_handler', 'dependencies': OrderedDict()}
+[0.000429] (cpp_parameter_event_handler) JobStarted: {'identifier': 'cpp_parameter_event_handler'}
+[0.042310] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'cmake'}
+[0.042397] (cpp_parameter_event_handler) Command: {'cmd': ['/usr/bin/cmake', '/home/max/ros2_ws/src/cpp_parameter_event_handler', '-DCMAKE_INSTALL_PREFIX=/home/max/ros2_ws/install/cpp_parameter_event_handler'], 'cwd': '/home/max/ros2_ws/build/cpp_parameter_event_handler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'max'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/max/ros2_ws/install/tutorial_interfaces/lib:/home/max/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/max'), ('OLDPWD', '/home/max/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1341'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/max/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'max'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/max-virtual-machine:@/tmp/.ICE-unix/1319,unix/max-virtual-machine:/tmp/.ICE-unix/1319'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/be6ba598_9ae0_47eb_9188_fa78f9638099'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W48QU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/tutorial_interfaces:/home/max/ros2_ws/install/turtlesim:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/ros2_ws/build/cpp_parameter_event_handler'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/max/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/max/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/max/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/max/ros2_ws/install/tutorial_interfaces:/home/max/ros2_ws/install/turtlesim:/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.099002] (-) TimerEvent: {}
+[0.199738] (-) TimerEvent: {}
+[0.300313] (-) TimerEvent: {}
+[0.400895] (-) TimerEvent: {}
+[0.453185] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.501039] (-) TimerEvent: {}
+[0.601728] (-) TimerEvent: {}
+[0.699023] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.701895] (-) TimerEvent: {}
+[0.725462] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802010] (-) TimerEvent: {}
+[0.818286] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.823775] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.824942] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.826385] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.831456] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902147] (-) TimerEvent: {}
+[0.927114] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.933486] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.933876] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.934393] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.961150] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.002272] (-) TimerEvent: {}
+[1.102601] (-) TimerEvent: {}
+[1.141359] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.202792] (-) TimerEvent: {}
+[1.277906] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.302913] (-) TimerEvent: {}
+[1.402922] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.403111] (-) TimerEvent: {}
+[1.411744] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.433623] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.475744] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.503374] (-) TimerEvent: {}
+[1.526366] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603555] (-) TimerEvent: {}
+[1.629188] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.641484] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.703740] (-) TimerEvent: {}
+[1.804552] (-) TimerEvent: {}
+[1.836608] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.873829] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.904836] (-) TimerEvent: {}
+[1.918045] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.005061] (-) TimerEvent: {}
+[2.106004] (-) TimerEvent: {}
+[2.186623] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.206119] (-) TimerEvent: {}
+[2.301239] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.303841] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.304167] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.304286] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.306082] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.306209] (-) TimerEvent: {}
+[2.306433] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.308919] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.311635] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.311774] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.313135] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.316607] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.326115] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Generating done\n'}
+[2.327369] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Build files have been written to: /home/max/ros2_ws/build/cpp_parameter_event_handler\n'}
+[2.346264] (cpp_parameter_event_handler) CommandEnded: {'returncode': 0}
+[2.347362] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'build'}
+[2.347463] (cpp_parameter_event_handler) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/max/ros2_ws/build/cpp_parameter_event_handler', '--', '-j2', '-l2'], 'cwd': '/home/max/ros2_ws/build/cpp_parameter_event_handler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'max'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/max/ros2_ws/install/tutorial_interfaces/lib:/home/max/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/max'), ('OLDPWD', '/home/max/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1341'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/max/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'max'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/max-virtual-machine:@/tmp/.ICE-unix/1319,unix/max-virtual-machine:/tmp/.ICE-unix/1319'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/be6ba598_9ae0_47eb_9188_fa78f9638099'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W48QU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/tutorial_interfaces:/home/max/ros2_ws/install/turtlesim:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/ros2_ws/build/cpp_parameter_event_handler'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/max/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/max/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/max/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/max/ros2_ws/install/tutorial_interfaces:/home/max/ros2_ws/install/turtlesim:/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[2.406425] (-) TimerEvent: {}
+[2.444682] (cpp_parameter_event_handler) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o\x1b[0m\n'}
+[2.506734] (-) TimerEvent: {}
+[2.607375] (-) TimerEvent: {}
+[2.708008] (-) TimerEvent: {}
+[2.808536] (-) TimerEvent: {}
+[2.909055] (-) TimerEvent: {}
+[3.009698] (-) TimerEvent: {}
+[3.110186] (-) TimerEvent: {}
+[3.210783] (-) TimerEvent: {}
+[3.311147] (-) TimerEvent: {}
+[3.411576] (-) TimerEvent: {}
+[3.512015] (-) TimerEvent: {}
+[3.612436] (-) TimerEvent: {}
+[3.712776] (-) TimerEvent: {}
+[3.813458] (-) TimerEvent: {}
+[3.914385] (-) TimerEvent: {}
+[4.014794] (-) TimerEvent: {}
+[4.115184] (-) TimerEvent: {}
+[4.215571] (-) TimerEvent: {}
+[4.315938] (-) TimerEvent: {}
+[4.416289] (-) TimerEvent: {}
+[4.516638] (-) TimerEvent: {}
+[4.617021] (-) TimerEvent: {}
+[4.717388] (-) TimerEvent: {}
+[4.817801] (-) TimerEvent: {}
+[4.918195] (-) TimerEvent: {}
+[5.018688] (-) TimerEvent: {}
+[5.119115] (-) TimerEvent: {}
+[5.219458] (-) TimerEvent: {}
+[5.319919] (-) TimerEvent: {}
+[5.420324] (-) TimerEvent: {}
+[5.520674] (-) TimerEvent: {}
+[5.621121] (-) TimerEvent: {}
+[5.721835] (-) TimerEvent: {}
+[5.822175] (-) TimerEvent: {}
+[5.951021] (-) TimerEvent: {}
+[6.051587] (-) TimerEvent: {}
+[6.151976] (-) TimerEvent: {}
+[6.252362] (-) TimerEvent: {}
+[6.352694] (-) TimerEvent: {}
+[6.453058] (-) TimerEvent: {}
+[6.553421] (-) TimerEvent: {}
+[6.653922] (-) TimerEvent: {}
+[6.754749] (-) TimerEvent: {}
+[6.892514] (-) TimerEvent: {}
+[6.993400] (-) TimerEvent: {}
+[7.093970] (-) TimerEvent: {}
+[7.194571] (-) TimerEvent: {}
+[7.295176] (-) TimerEvent: {}
+[7.395830] (-) TimerEvent: {}
+[7.496379] (-) TimerEvent: {}
+[7.596938] (-) TimerEvent: {}
+[7.697506] (-) TimerEvent: {}
+[7.798076] (-) TimerEvent: {}
+[7.898666] (-) TimerEvent: {}
+[7.999236] (-) TimerEvent: {}
+[8.099837] (-) TimerEvent: {}
+[8.200455] (-) TimerEvent: {}
+[8.300944] (-) TimerEvent: {}
+[8.401372] (-) TimerEvent: {}
+[8.501864] (-) TimerEvent: {}
+[8.602264] (-) TimerEvent: {}
+[8.702794] (-) TimerEvent: {}
+[8.803335] (-) TimerEvent: {}
+[8.903745] (-) TimerEvent: {}
+[9.004123] (-) TimerEvent: {}
+[9.104512] (-) TimerEvent: {}
+[9.204958] (-) TimerEvent: {}
+[9.305349] (-) TimerEvent: {}
+[9.405699] (-) TimerEvent: {}
+[9.506094] (-) TimerEvent: {}
+[9.606624] (-) TimerEvent: {}
+[9.707335] (-) TimerEvent: {}
+[9.808002] (-) TimerEvent: {}
+[9.908412] (-) TimerEvent: {}
+[10.009010] (-) TimerEvent: {}
+[10.110017] (-) TimerEvent: {}
+[10.210503] (-) TimerEvent: {}
+[10.310911] (-) TimerEvent: {}
+[10.411507] (-) TimerEvent: {}
+[10.512512] (-) TimerEvent: {}
+[10.613080] (-) TimerEvent: {}
+[10.713409] (-) TimerEvent: {}
+[10.813918] (-) TimerEvent: {}
+[10.914335] (-) TimerEvent: {}
+[11.014694] (-) TimerEvent: {}
+[11.115682] (-) TimerEvent: {}
+[11.217219] (-) TimerEvent: {}
+[11.354772] (-) TimerEvent: {}
+[11.455249] (-) TimerEvent: {}
+[11.535681] (cpp_parameter_event_handler) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable parameter_event_handler\x1b[0m\n'}
+[11.555488] (-) TimerEvent: {}
+[11.656072] (-) TimerEvent: {}
+[11.756847] (-) TimerEvent: {}
+[11.857883] (-) TimerEvent: {}
+[11.958317] (-) TimerEvent: {}
+[12.058957] (-) TimerEvent: {}
+[12.062242] (cpp_parameter_event_handler) StdoutLine: {'line': b'[100%] Built target parameter_event_handler\n'}
+[12.073984] (cpp_parameter_event_handler) CommandEnded: {'returncode': 0}
+[12.123534] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'install'}
+[12.132659] (cpp_parameter_event_handler) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/max/ros2_ws/build/cpp_parameter_event_handler'], 'cwd': '/home/max/ros2_ws/build/cpp_parameter_event_handler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'max'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/max/ros2_ws/install/tutorial_interfaces/lib:/home/max/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/max'), ('OLDPWD', '/home/max/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1341'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/max/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'max'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/max-virtual-machine:@/tmp/.ICE-unix/1319,unix/max-virtual-machine:/tmp/.ICE-unix/1319'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/be6ba598_9ae0_47eb_9188_fa78f9638099'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W48QU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/tutorial_interfaces:/home/max/ros2_ws/install/turtlesim:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/ros2_ws/build/cpp_parameter_event_handler'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/max/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/max/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/max/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/max/ros2_ws/install/tutorial_interfaces:/home/max/ros2_ws/install/turtlesim:/home/max/ros2_ws/install/py_srvcli:/home/max/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[12.139942] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.140652] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler\n'}
+[12.144037] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Set runtime path of "/home/max/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""\n'}
+[12.144199] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler\n'}
+[12.144398] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler\n'}
+[12.144604] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh\n'}
+[12.144835] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv\n'}
+[12.144996] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh\n'}
+[12.145154] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv\n'}
+[12.145323] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash\n'}
+[12.145477] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh\n'}
+[12.145646] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh\n'}
+[12.145815] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv\n'}
+[12.145965] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv\n'}
+[12.146139] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler\n'}
+[12.146326] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake\n'}
+[12.146468] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake\n'}
+[12.146574] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/max/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml\n'}
+[12.150088] (cpp_parameter_event_handler) CommandEnded: {'returncode': 0}
+[12.159525] (-) TimerEvent: {}
+[12.260464] (-) TimerEvent: {}
+[12.290325] (cpp_parameter_event_handler) JobEnded: {'identifier': 'cpp_parameter_event_handler', 'rc': 0}
+[12.291189] (-) EventReactorShutdown: {}

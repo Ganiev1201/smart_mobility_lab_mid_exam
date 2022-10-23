@@ -1,0 +1,54 @@
+[0.078s] Invoking command in '/home/max/ros2_ws/build/tutorial_interfaces': /usr/bin/cmake --build /home/max/ros2_ws/build/tutorial_interfaces -- -j2 -l2
+[0.150s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.443s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.447s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.454s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.729s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.012s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.013s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[1.013s]   tutorial_interfaces --arguments-file
+[1.013s]   /home/max/ros2_ws/build/tutorial_interfaces/rosidl_adapter__arguments__tutorial_interfaces.json
+[1.013s]   --output-dir
+[1.013s]   /home/max/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces
+[1.013s]   --output-file
+[1.013s]   /home/max/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces.idls)
+[1.013s]   returned error code 1:
+[1.013s] 
+[1.013s]   Error processing 'using std::placeholders::_1;' of
+[1.013s]   'tutorial_interfaces/Num': ''using' is an invalid message name.  It should
+[1.013s]   have the pattern '^[A-Z][A-Za-z0-9]*$''
+[1.013s] 
+[1.013s]   Traceback (most recent call last):
+[1.013s] 
+[1.013s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.013s]       return _run_code(code, main_globals, None,
+[1.013s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.013s]       exec(code, run_globals)
+[1.013s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.014s]       sys.exit(main())
+[1.014s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.014s]       abs_idl_file = convert_to_idl(
+[1.014s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.014s]       return convert_msg_to_idl(
+[1.018s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.018s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.018s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[1.018s]       Type(type_string, context_package_name=pkg_name),
+[1.019s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[1.019s]       super(Type, self).__init__(
+[1.019s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[1.019s]       raise InvalidResourceName(
+[1.019s] 
+[1.019s]   rosidl_adapter.parser.InvalidResourceName: 'using' is an invalid message
+[1.019s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.019s] 
+[1.019s] Call Stack (most recent call first):
+[1.019s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.020s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[1.020s] 
+[1.021s] [0m
+[1.022s] -- Configuring incomplete, errors occurred!
+[1.022s] See also "/home/max/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[1.022s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1

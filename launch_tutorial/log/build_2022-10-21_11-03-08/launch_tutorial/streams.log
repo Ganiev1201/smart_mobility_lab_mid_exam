@@ -1,0 +1,35 @@
+[0.531s] Invoking command in '/home/max/launch_tutorial': PYTHONPATH=/home/max/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/launch_tutorial build --build-base /home/max/launch_tutorial/build/launch_tutorial/build install --prefix /home/max/launch_tutorial/install/launch_tutorial --record /home/max/launch_tutorial/build/launch_tutorial/install.log --single-version-externally-managed
+[0.724s] running egg_info
+[0.725s] creating build/launch_tutorial/launch_tutorial.egg-info
+[0.725s] writing build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[0.726s] writing dependency_links to build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[0.726s] writing entry points to build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[0.726s] writing requirements to build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[0.726s] writing top-level names to build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[0.728s] writing manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.729s] reading manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.729s] writing manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.730s] running build
+[0.730s] running build_py
+[0.730s] creating /home/max/launch_tutorial/build/launch_tutorial/build
+[0.730s] creating /home/max/launch_tutorial/build/launch_tutorial/build/lib
+[0.730s] creating /home/max/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial
+[0.730s] copying launch_tutorial/__init__.py -> /home/max/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial
+[0.730s] running install
+[0.730s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.731s]   warnings.warn(
+[0.731s] running install_lib
+[0.731s] creating /home/max/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[0.732s] copying /home/max/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/max/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[0.732s] byte-compiling /home/max/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial/__init__.py to __init__.cpython-310.pyc
+[0.732s] running install_data
+[0.733s] creating /home/max/launch_tutorial/install/launch_tutorial/share/ament_index
+[0.733s] creating /home/max/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index
+[0.733s] creating /home/max/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index/packages
+[0.733s] copying resource/launch_tutorial -> /home/max/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index/packages
+[0.733s] copying package.xml -> /home/max/launch_tutorial/install/launch_tutorial/share/launch_tutorial
+[0.733s] running install_egg_info
+[0.734s] Copying build/launch_tutorial/launch_tutorial.egg-info to /home/max/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[0.735s] running install_scripts
+[0.757s] writing list of installed files to '/home/max/launch_tutorial/build/launch_tutorial/install.log'
+[0.776s] Invoked command in '/home/max/launch_tutorial' returned '0': PYTHONPATH=/home/max/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/launch_tutorial build --build-base /home/max/launch_tutorial/build/launch_tutorial/build install --prefix /home/max/launch_tutorial/install/launch_tutorial --record /home/max/launch_tutorial/build/launch_tutorial/install.log --single-version-externally-managed

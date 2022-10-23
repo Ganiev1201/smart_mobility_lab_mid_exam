@@ -1,0 +1,1 @@
+Invoking command in '/home/max/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/max/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/max/ros2_ws/install/action_tutorials_interfaces
